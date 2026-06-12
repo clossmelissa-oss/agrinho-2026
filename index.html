@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável - Agrinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Agro<span>Sustentável</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#interativo">Simulador</a></li>
+                <li><a href="#sobre">Sobre o Projeto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Agro Forte, Futuro Sustentável</h2>
+            <p>O equilíbrio perfeito entre a alta produtividade no campo e a preservação do meio ambiente.</p>
+            <a href="#pilares" class="btn-principal">Conhecer Práticas</a>
+        </div>
+    </section>
+
+    <main id="pilares">
+        <h2 class="titulo-secao">Pilares da Produção Sustentável</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="icon">🚜</div>
+                <h3>Tecnologia no Campo</h3>
+                <p>Uso de drones, sensores e agricultura de precisão para otimizar o uso de água e insumos, reduzindo o desperdício.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🌱</div>
+                <h3>Manejo de Solo</h3>
+                <p>O Plantio Direto e a rotação de culturas protegem a terra contra a erosão e mantêm os nutrientes vitais ativos.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🌳</div>
+                <h3>Preservação Ativa</h3>
+                <p>Manutenção de Matas Ciliares e Áreas de Preservação Permanente (APPs) integradas às áreas produtivas.</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="interativo" class="simulador-section">
+        <div class="simulador-container">
+            <h2>Simulador de Impacto Positivo</h2>
+            <p class="subtitulo">Escolha uma prática sustentável abaixo para calcular os benefícios reais no campo:</p>
+            
+            <div class="botoes-simulador">
+                <button class="btn-simular" onclick="simular('plantio')">Plantio Direto</button>
+                <button class="btn-simular" onclick="simular('drones')">Uso de Drones</button>
+                <button class="btn-simular" onclick="simular('reuso')">Reuso de Água</button>
+            </div>
+
+            <div id="resultado-simulacao" class="resultado-box">
+                <p class="placeholder-texto">Clique em um dos botões acima para simular os resultados de impacto ambiental e econômico.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="sobre">
+        <p>&copy; 2026 Projeto Agrinho Paraná - Subcategoria 3. Desenvolvido para um futuro mais verde.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
