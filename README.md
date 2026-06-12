@@ -32,3 +32,7 @@ O projeto foi desenvolvido utilizando tecnologias web puras (Vanilla Web), sem a
 ├── style.css       # Estilização visual, cores e layout responsivo
 ├── script.js       # Lógica do simulador e interatividade
 └── README.md       # Documentação do projeto
+
+COMO EXECUTAR O PROJETO
+
+https://clossmelissa-oss.github.io/agrinho-2026/
